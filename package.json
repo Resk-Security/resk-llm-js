@@ -16,7 +16,16 @@
     "type": "git",
     "url": "git+https://github.com/Resk-Security/resk-llm-ts.git"
   },
-  "keywords": ["llm", "ai", "security", "openrouter", "resk", "prompt-injection", "bun", "typescript"],
+  "keywords": [
+    "llm",
+    "ai",
+    "security",
+    "openrouter",
+    "resk",
+    "prompt-injection",
+    "bun",
+    "typescript"
+  ],
   "author": "Resk <contact@resk.fr>",
   "license": "GPL-3.0",
   "bugs": {
@@ -25,19 +34,26 @@
   "homepage": "https://github.com/Resk-Security/resk-llm-ts#readme",
   "dependencies": {},
   "peerDependencies": {
-    "express": "^4.x",
+    "express": "^4.22.1",
     "hono": "^4.x",
-    "openai": "^4.x"
+    "openai": "^4.96.2"
   },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/express": "^5.0.6",
-    "flatted": "^3.3.3",
-    "hono": "^4.7.7",
-    "minimatch": "^10.0.1",
-    "picomatch": "^4.0.2",
-    "typedoc": "^0.28.0",
-    "typescript": "^5.4.5"
+    "flatted": "^3.4.4",
+    "hono": "^4.13.7",
+    "minimatch": "^10.2.6",
+    "picomatch": "^4.0.7",
+    "typedoc": "^0.28.20",
+    "typescript": "^5.9.3"
   },
-  "files": ["dist/**/*"]
+  "files": [
+    "dist/**/*"
+  ],
+  "overrides": {
+    "body-parser": "^1.20.6",
+    "form-data": "^4.0.6",
+    "qs": "^6.15.4"
+  }
 }
