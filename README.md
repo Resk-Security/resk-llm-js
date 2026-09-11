@@ -10,7 +10,9 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6)](https://www.typescriptlang.org)
 [![Documentation](https://img.shields.io/badge/docs-online-blue)](https://resk-security.github.io/resk-llm-ts/)
 
-🔗 Part of [RESK Security](https://resk.fr) — tools, blog and docs at [resk.fr](https://resk.fr)
+🔗 [resk.fr/projects/resk-llm-ts](https://resk.fr/projects/resk-llm-ts.html) — part of [RESK Security](https://resk.fr)
+
+📚 Guide: [TypeScript AI Security](https://resk.fr/pages/security/typescript-ai-security.html)
 
 ## Installation
 
